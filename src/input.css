@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .mobile-active {
+    @apply fixed hidden top-[64px] w-full h-full bg-black text-white font-semibold text-sm z-[99999];
+  }
+
+  .bg-icon-social-media {
+    @apply flex justify-center items-center text-base w-10 h-10 xl:text-2xl bg-gray-500 xl:w-12 xl:h-12 rounded-full hover:text-green-main;
+  }
+}
